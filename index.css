@@ -1,0 +1,136 @@
+body{
+    
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    
+}
+
+
+:root{
+    --bg-color: #020312;
+    --textcolor: #fff;
+    --main-color: red;
+    --second-color: gray;
+    --other-color: 12141c;
+    --h1-font: 3rem;
+    --h2-font: 3.5rem;
+    --p-font: 1.1rem;   
+}
+
+/* first section design */
+ 
+ #home{
+    background-image: url( josh-eckstein-nkUioaswtvM-unsplash.jpg);
+     background-size: cover;
+     background-position: center;
+     padding-bottom: 200px;
+     
+}
+
+
+ 
+
+#introduction-text{
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    margin-top: 100px;
+    padding-top:300px ;
+}
+
+#OurpastorButton{
+    border: 1px solid black;
+    color:  blue;
+    font-size: medium;
+    padding: 10px 15px;
+    margin: 0 2px;
+    border-radius: 0.5rem;
+    background-color:  red;
+
+}
+
+#OurpastorButton:hover{
+    background: transparent;
+    border:  2px solid  red;
+    transform: scale(1.01) translateY(-5px);
+}
+
+#OurpastorButtonDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+ header{
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;    
+    justify-content: space-around;
+     background: transparent;
+     padding: 2px 16% 15;
+     border-bottom: 1px solid transparent;
+     transition: all .40 ease;
+     position: fixed;
+
+}
+
+.navbar{
+    display: flex;
+   
+   
+   }
+
+ .logo{
+     height: 100px;
+ }
+
+   .navbar a:hover{
+    background-color: var(--main-color);
+}
+
+.navbar a{
+    color: blue;
+    font-size: medium;
+    padding: 10px 15px;
+    margin: 0 2px;
+    border-radius: 0.5rem;
+    transition: all .40s ease ;
+    padding-right: 40px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: x-large;
+    font-weight: 900;
+
+}
+
+/* about section design */
+#about-imgDiv{
+    margin-top:50px;
+    
+}
+
+header.sticky{
+    
+    background: white;
+    border-bottom: 1px solid ;
+    transition: .3s;
+    
+}
+
+#history-text{
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    font-weight: 800;
+    margin-top:70px;
+    margin-left:200px;
+}
+
+#About-section{
+    display: flex;
+}
