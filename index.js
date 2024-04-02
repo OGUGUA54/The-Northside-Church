@@ -14,9 +14,10 @@ window.sr = ScrollReveal ({
       reset: true
 })
 
-sr.reveal('#introduction-text',{delay:500, origin:'bottom'})
-sr.reveal('#OurpastorButtonDiv',{delay:500, origin:'bottom'})
-sr.reveal('#About',{delay:500, origin:'right'})
+sr.reveal('#introduction-text',{delay:200, origin:'bottom'})
+sr.reveal('#Worship-with-usDiv',{delay:200, origin:'bottom'})
+sr.reveal('#About',{delay:200, origin:'right'})
+sr.reveal('#pastor',{delay:200, origin:'left'})
 
 
 
@@ -33,6 +34,8 @@ window.onscroll = () => {
      menu.classList.remove('bx-x');
      navbar.classList. remove('active');
 }
+ 
+ 
 
 
 let index = 0;
@@ -53,7 +56,7 @@ function displayImages() {
 
 
 
- let countDownDate = new Date("sep 24, 2023 00:00:00").getTime();
+ let countDownDate = new Date("feb 25, 2024 16:00:00").getTime();
 
  let x = setInterval(function(){
 

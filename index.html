@@ -11,7 +11,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
- 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
 
 </head>
 
@@ -24,14 +26,15 @@
       <div class="bx bx-menu" id="menu-icon"><box-icon name='menu'></box-icon></div>
       <ul class="navbar">
        <a href="#home" class="first-text">Home</a>
-        <a href="#About" class="first-text">About</a>
-        <a href="#upcoming programs" class="first-text">upcoming programs</a>
+        <a href="about.html" class="first-text">About</a>
+        <a href="#upcoming programs" id="upcoming-programs" class="first-text">upcoming programs</a>
         <a href="#contact" class="first-text">Contact</a>
+        <a href="themes-of-the-year.html" class="first-text" target="_blank">Themes</a>
       </ul>
     </header>
     <div id="introduction-text">
        <h1 style="color:#fff;">
-        WELCOME to THE NORTHSIDE CHURCH,the city of God.<br>
+        WELCOME to THE NORTHSIDE CHURCH,<br>the city of God.<br>
            ...Bringing many sons unto glory<br>HEB 2:10 
       </h1> 
     </div>
@@ -52,34 +55,38 @@
       <p> Lorem ipsum dolor sit amet, consectetur<br>
          Lorem ipsum dolor sit, amet consectetur<br> lorem
         t Lorem ipsum dolor, sit amet consectetur  <br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum tenetur <br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum tenetur<br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum tenetur<br>  estre
-        Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Cum tenetur <br>  adipisicing elit. Cum tenetur
-       
-        adipisicing elit. Cum tenetur </p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.   <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.  <br>  estre
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.  <br>
+        Lorem ipsum dolor sit amet consectetur <br>adipisicing elit.  <br>  adipisicing elit. Cum tenetur
+        
+        adipisicing elit.   </p>
     </div>
       
  
-    <div class="about-img">
-      <img src="IMG-20230901-WA0069.jpg" class="aboutimg">
+    <div id="pastor" style="display: flex; flex-wrap: wrap;">
+      <div class="about-text">
+      
+        <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h4>
+        <p> Lorem ipsum dolor sit amet, consectetur<br>
+           Lorem ipsum dolor sit, amet consectetur<br> lorem
+          t Lorem ipsum dolor, sit amet consectetur  <br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.   <br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.   <br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.  <br>
+          Lorem ipsum dolor sit amet consectetur adgipisicing elit.  <br>  estre
+          Lorem ipsum dolor sit amet consectetur <br>adipisicing elit.  <br>  adipisicing elit.  
+         
+          adipisicing elit.  
+           . </p>
+      </div>
+  
+      <div class="about-img">
+        <img src="IMG-20230901-WA0069.jpg" class="aboutimg">
+      </div>
     </div>
 
-    <div class="about-text">
-      
-      <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h4>
-      <p> Lorem ipsum dolor sit amet, consectetur<br>
-         Lorem ipsum dolor sit, amet consectetur<br> lorem
-        t Lorem ipsum dolor, sit amet consectetur  <br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum tenetur <br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum tenetur <br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum tenetur<br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum tenetur<br>  estre
-        Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Cum tenetur <br>  adipisicing elit. Cum tenetur
-       
-        adipisicing elit. Cum tenetur
-         . </p>
-    </div>
+
       
   </section>
 
@@ -92,17 +99,25 @@
     <img src="./edwin-andrade-6liebVeAfrY-unsplash.jpg" alt="Palm Trees">
     </div>        
     <div class="image fade">
-    <img src="./aaron-burden-9zsHNt5OpqE-unsplash.jpg" alt="Neon Sign"> 
+    <img src="./resources/Ushers and Choir.jpg" alt="Neon Sign"> 
     </div>
+    <div class="image fade">
+    <img src="./resources/choir.jpg" alt="Neon Sign"> 
+    </div>
+    <div class="image fade">
+    <img src="./resources/members during church service.jpg" alt="Neon Sign"> 
+    </div>
+    <div class="image fade">
+    <img src="./resources/members during praise 9.jpg" alt="Neon Sign"> 
+    </div>  
   </div>
   <!-- upcoming programs-->
   <section id="upcoming programs">
 <div class="upcoming-programs">
 <div class="card">
-  <img src="children img.jpg" style="width:500px;height: 400px;" />
+  <video src="VID-20240224-WA0063.mp4" style="width:500px;height: 400px;" ></video>
   <div class="text">
-    <h2>Our annual children's day </h2>
-  <p>It is easier to build up a child than to repair an adult</p>
+  
   <div class="countdown">
 <div>
 <div id="days">00</div>
@@ -126,7 +141,7 @@
        
 
   </div>
-  <a href=><button class="more-infoButton">more info</button></a>
+  <a href="#jbuvideo"><button class="more-infoButton">more info</button></a>
   </div>
 </div>
 
@@ -149,29 +164,7 @@
       <h2>Night of encounter</h2>
       <p style="font-size: xx-large;">Friday september 29th 2023</p>
     <a href=><button class="more-infoButton">more info</button></a>
-    <div class="countdown">
-      <div>
-      <div id="day1">00</div>
-      <div id="word1">days</div>
-      </div>
-      
-      <div>
-        <div id="hour1">00</div>
-        <div id="wor1">hours</div>
-        </div>
-      
-        <div>
-          <div id="minute1">00</div>
-          <div id="wo1">minutes</div>
-          </div>
-      
-          <div>
-            <div id="second1">00</div>
-            <div id="wt1">seconds</div>
-            </div>
-             
-      
-        </div>
+    
     </div>
   </div>
   
@@ -186,6 +179,11 @@
   </div>
   </div>
 </section>
+
+<div id="jbuvideo">
+  <marquee behavior="" direction=""><h1 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 3rem; color:blueviolet ;">Our most recent programme ! </h1></marquee>
+  <video src="./VID-20240224-WA0063.mp4"  controls width="100%"></video>
+</div> 
 <hr>
 
 <section>
@@ -197,7 +195,7 @@
 <div class="weekly-activitiesText">
   
   <h1>sunday service:</h1>
-  <h1>BASILIO EN ZOE  DIA MESOU IISOUS CHRISTOS</h1>
+  <h1>BASILEUō en ZOE DIA HEIS IESOUS CHRISTOS</h1>
   <h1> 8am-12pm</h1>
 </div>
 </div>
@@ -238,7 +236,7 @@
 <form method="post" action="mailto:thierryvictor88@gmail.com" method="post" id="contact">
   <input type="" placeholder="Enter Your name" >
   <input type="email" placeholder="Enter Your email">
-  <input type="number" placeholder="Enter Your number">
+  <input type="text" placeholder="Enter Your phone no.">
   <textarea name="textarea" id="" cols="40" rows="10" placeholder="Enter Your Message"></textarea>
   <input type="submit" name="submit" value="submit" class="send">
 </div>
@@ -247,9 +245,9 @@
 <footer>
   <div class="footerContainer">
     <div class="socialIcons">
-      <a href="https://www.facebook.com/profile.php?id=100078090585927&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
-      <a href="https://www.instagram.com/thenorthside4church/"><i class="fa-brands fa-instagram"></i></a>
-      <a href="https://youtube.com/@thenorthsidechurch_beulahville?si=T8pEPtGd7pfrq9Cd"><i class="fa-brands fa-youtube"></i></a>
+      <a href="https://www.facebook.com/profile.php?id=100078090585927&mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://www.instagram.com/thenorthside4church/"  target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://youtube.com/@thenorthsidechurch_beulahville?si=T8pEPtGd7pfrq9Cd"  target="_blank"><i class="fa-brands fa-youtube"></i></a>
        
     </div>
   </div>
