@@ -29,7 +29,7 @@ html{
     background-image: url( Screenshot_20240223-070832.jpg);
      background-size: cover;
      background-position: center;
-     padding-bottom: 100px;
+     padding-bottom: 30px;
      padding-top: 130px;
 }
 
@@ -46,8 +46,8 @@ html{
     font-family: 'Alegreya', serif;
   
     font-style: italic;
-    margin-top: 70px;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding-top:100px ;
     display: flex;
     justify-content: center;
@@ -110,6 +110,7 @@ html{
 
  .logo{
      height: 100px;
+     width: 100px;
  }
 
    .navbar a:hover{
@@ -142,36 +143,19 @@ html{
 
 /* about section */
 
-
-.about{
-    display: flex;
-    gap: 4rem;
-    justify-content: center;
-    flex-wrap: wrap;
+.pastor{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+margin-bottom: 20px;
+margin-top: 30px;
 }
- 
+  
 .aboutimg{
-  width: 400px;
-  height: 400px;
-}
-
-.about-text h4{
-margin: 10px 0;
-font-size: 20px;
-font-weight: 600;
- 
-}
-
-.about-text h2{
-    /* font-size: var(--h2-font); */
-}
-
-.about-text p{
-    /* color: var(--second-color);
-    font-size: var(--p-font); */
-    line-height: 30px;
-    margin-bottom: 2rem;
-}
+  height: 500px;
+  width: 600px;
+  }
+ /* end of about section */
 * {
     box-sizing: border-box
 }
@@ -201,7 +185,12 @@ img {
     text-align: center;
     border-radius: 10px;
     overflow: hidden;
-    
+  
+     }
+
+     .card-img{ 
+    width: 500px;
+    height: 400px;
      }
  
 .card:hover{
@@ -355,13 +344,287 @@ text-align: center;
   color: white;
 }
 
- 
- 
+ /* 320-480 small mobile
+ 481-768 large mobile
+ 769-1024 :laptop
+  1025-1200 large screen and desktop
+1201 tv */
+
+@media only screen and (min-width:320px) and (max-width:480px){
+  
+  #home{
+    background-image: url( Screenshot_20240223-070832.jpg);
+     background-size:cover;
+     background-position: center;
+     
+}
+  .navbar{
+    position: absolute;
+    top: -600px;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    text-align:left;
+    transition: all .40s ease;
+  }
+  
+  .navbar.active{
+    top: 90px;
+    
+  } 
+  
+  
+  .aboutimg{
+  height: 60vh;
+  width:  100vw;
+  }
+
+  #menu-icon{
+    display: block;
+  color: #12141c;
+  }
+  #menu-icon:hover{
+  transform: scale(1.01) translateY(-5px);
+  }
+
+  #introduction-text{
+    font-size: 0.8rem;
+    margin-right: 10px;
+    margin-right: 10px;
+    justify-content: start;
+}
+
+img {
+  width: 100vw;
+  height: 100vh;
+}
+
+.card-img{ 
+  width: 200px;
+  height: 100px;
+   }
+.card {
+ width: 280px;
+ height: 300px;
+margin-bottom: 20px;
+   }
+}
 
 
 
 
-@media only screen and (min-width:770px) and (max-width:2000px){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media only screen and (min-width:770px) and (max-width:2000px){
     #menu-icon{
         display: none;
     }
@@ -576,4 +839,4 @@ color: #12141c;
   .socialIcons a i{
     font-size: 1em;
    }
-}
+} */
